@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rtech.carnet.activity.ScrollingActivity">
+    <item
+        android:id="@+id/map"
+        android:title="预约加油"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/order"
+        android:title="预约信息"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/scan"
+        android:title="扫一扫"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/query"
+        android:title="违章查询"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/account"
+        android:title="个人信息"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:title="退出账户"
+        app:showAsAction="never" />
+</menu>
